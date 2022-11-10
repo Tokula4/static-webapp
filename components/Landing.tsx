@@ -7,7 +7,11 @@ import { motion } from 'framer-motion'
 function Landing() {
   return (
     <section  className='bg-[#000] items-center h-screen justify-between mx-auto sticky px-8   flex' >
-        <motion.div className='space-y-3' >
+        <motion.div className='space-y-3' 
+         initial={{ opacity:0 }}
+         whileInView={{ opacity:1 }}
+         transition={{ duration:1.5 }}
+         >
             <h1 className="space-y-3 text-5xl font-semibold tracking-wide lg:text-6xl xl:text-7xl" >
                 <span className="block text-white " > Furniture store  </span>
                 <span className="block text-white " > By EJ-Limited </span>
@@ -17,9 +21,25 @@ function Landing() {
                 <Button title="Buy Now" />              
             </div>
         </motion.div>
-        <div className="relative hidden h-[450px] w-[450px] transition-all duration-500 md:inline lg:h-[650px] lg:w-[600px]">
+        < motion.div 
+         initial={{
+            x:-200,
+            opacity:0
+        }}
+
+        transition={{
+            duration:1.2,
+        }}
+
+        whileInView={{
+            x:0,
+            opacity:1
+        }}
+
+        viewport={{ once:true,  }}
+        className="relative hidden h-[450px] w-[450px] transition-all duration-500 md:inline lg:h-[650px] lg:w-[600px]">
         <Image src="/img-2.png" layout="fill" objectFit="contain" />
-      </div>
+      </motion.div>
       
     </section>
   )

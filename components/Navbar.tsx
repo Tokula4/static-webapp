@@ -45,19 +45,19 @@ export const Navbar = () => {
           className={`${ active ? '' : 'hidden' }  w-full lg:inline-flex p-3 lg:w-auto`}>
           <div className='flex flex-col items-start w-full lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto lg:items-center lg:h-auto'>
          
-              <a className='items-center justify-center w-full px-3 py-2 font-bold text-white rounded lg:inline-flex lg:w-auto hover:bg-blue hover:text-white '>
+              <a className='items-center justify-center w-full px-3 py-2 font-bold text-white rounded lg:inline-flex lg:w-auto hover:bg-gray-600 hover:text-white '>
                 Home
               </a>
          
-              <a className='items-center justify-center w-full px-3 py-2 mx-4 font-bold text-white rounded lg:inline-flex lg:w-auto hover:bg-red-600 hover:text-white'>
+              <a className='items-center justify-center w-full px-3 py-2 mx-4 font-bold text-white rounded lg:inline-flex lg:w-auto hover:bg-gray-600 hover:text-white'>
                 Services
               </a>
            
-              <a className='items-center justify-center w-full px-3 py-2 font-bold text-white rounded lg:inline-flex lg:w-auto hover:bg-red-600 hover:text-white'>
+              <a className='items-center justify-center w-full px-3 py-2 font-bold text-white rounded lg:inline-flex lg:w-auto hover:bg-gray-600 hover:text-white'>
                 About us
               </a>
           
-              <a className='items-center justify-center w-full px-3 py-2 mx-4 font-bold text-white rounded lg:inline-flex lg:w-auto hover:bg-red600 hover:text-white'>
+              <a className='items-center justify-center w-full px-3 py-2 mx-4 font-bold text-white rounded lg:inline-flex lg:w-auto hover:bg-gray-600 hover:text-white'>
                 Contact us
               </a>
            
