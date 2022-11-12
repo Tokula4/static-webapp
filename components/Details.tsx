@@ -6,7 +6,7 @@ function Details() {
     <section className="px-4 py-16 mx-auto max-w-7xl sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8" >
     <div className="md:flex" >
         <div>
-        <Image src="/img-4.jpg" width={1000} height={500} objectFit="contain" />
+        <Image src="/img-9.jpg" width={1000} height={500} objectFit="contain" />
         </div>
         <div className="bg-[#BCE29E] text-white  p-6 " >
             <h1 className="text-[45px] p-5  uppercase font-DMSerifdisplay  " > Bedroom Furniture </h1>
@@ -43,7 +43,7 @@ function Details() {
                
         </div>
         <div>
-        <Image src="/img-7.jpg" width={1000} height={500} objectFit="contain" />
+        <Image src="/img-12.jpg" width={1000} height={500} objectFit="contain" />
         </div>
       
     </div>

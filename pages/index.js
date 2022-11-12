@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Contact from '../components/Contact';
 import Details from '../components/Details';
 import Landing from '../components/Landing';
 import Navbar from '../components/Navbar';
@@ -18,6 +19,7 @@ export default function Home() {
       <Landing />
       <Product />
       <Details />
+      <Contact />
     </div>
   );
 }

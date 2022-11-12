@@ -6,18 +6,18 @@ const products = [
       id: 1,
       name: ' Best Chair forner ',
       href: '#',
-      imageSrc: '/img-1.png',
+      imageSrc: '/img-11.png',
       imageAlt: "Front of men's Basic Tee in black.",
-      price: '$3500',
+     
       
     },
     {
     id: 2,
     name: ' Best Chair forner ',
     href: '#',
-    imageSrc: '/img-6.png',
+    imageSrc: '/img-13.png',
     imageAlt: "Front of men's Basic Tee in black.",
-    price: '$3500',
+   
     
   },
 
@@ -29,7 +29,7 @@ const products = [
     return (
       <div className="bg-white">
         <div className="px-4 py-16 mx-auto sm:py-24 sm:px-6 lg:px-8">
-          <h2 className="text-2xl tracking-tight text-[60px] text-gray-900 font-Playfairdisplay md:text-center">New Product </h2>
+          <h2 className="text-2xl tracking-tight text-[60px] text-gray-900 font-Playfairdisplay md:text-center">Our Livestock </h2>
   
           <div className="grid grid-cols-1 p-3 mt-6 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-2 xl:gap-x-8">
             {products.map((product) => (
@@ -44,8 +44,8 @@ const products = [
                     </h3>
                     
                   </div>
-                  <p className="text-sm font-medium text-[40px] sm:text-center p-6 text-gray-900">{product.price}</p>
-                  <div  className="p-5 sm:text-center "  ><Button title="Buy "   /></div>
+                  
+                 
 
                        
                 </div>
