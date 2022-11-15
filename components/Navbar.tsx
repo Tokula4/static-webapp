@@ -13,7 +13,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav className='flex flex-wrap justify-between items-center bg-[#000] '>
+      <nav className='flex flex-wrap justify-between items-center '>
        
           <a className='inline-flex items-center p-2 mr-4 '>
            <span className='h-10 p-3 text-white w-25 s'>

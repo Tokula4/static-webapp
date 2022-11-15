@@ -5,19 +5,16 @@ import { motion } from 'framer-motion'
 function Contact() {
   return (
     <section className=""   >
-        <h2 className="mb-4 text-4xl font-extrabold tracking-tight text-center text-black dark:text-white">Contact Us</h2>
+        <h2 className="mb-4 text-4xl font-extrabold tracking-tight text-center text-black">Contact Us</h2>
     <div className="md:flex p-3  ">
         
-        <motion.div 
-        transition={{
-            delay: 0.5,
-            x: { duration: 1 },
-            default: { ease: "linear" }
-          }}>
+        <div 
+        className=" p-5 "
+     >
 
-
-        <Image src="/img-14.jpg"   width="1000" height="500"  />
-        </motion.div>
+ 
+        <Image src="/img-14.jpg"   width="900" height="500"  />
+        </div>
     <div className="max-w-screen-md px-4 py-8  mx-auto lg:py-16">
    
         <p className="mb-8  font-bold text-center text-black lg:mb-16 dark:text-black sm:text-xl"> Want to send feedback about a better feature? Need details about our Business plan? Let us know.</p>

@@ -9,7 +9,7 @@ function Details() {
         <Image src="/img-9.jpg" width={1000} height={500} objectFit="contain" />
         </div>
         <div className="bg-[#BCE29E] text-white  p-6 " >
-            <h1 className="text-[45px] p-5  uppercase font-DMSerifdisplay  " > Bedroom Furniture </h1>
+            <h1 className="text-[45px] p-5  uppercase font-DMSerifdisplay  " > best Egg Farm </h1>
             <p   className="p-5 font-Robotosalb" >In this post, we learned how to create a fixed navbar with tailwind CSS. In addition, 
                 to stick to the top, it is also responsive and easily editable for your preferences.</p>
                 <div className="flex p-5" >
@@ -28,7 +28,7 @@ function Details() {
     <div className="md:flex" >
       
         <div className="bg-[#FF884B] text-white  p-6 " >
-            <h1 className="text-[45px] p-5  uppercase font-DMSerifdisplay  " > Bedroom Furniture </h1>
+            <h1 className="text-[45px] p-5  uppercase font-DMSerifdisplay  " > Best Farm Now </h1>
             <p   className="p-5 font-Robotosalb" >In this post, we learned how to create a fixed navbar with tailwind CSS. In addition, 
                 to stick to the top, it is also responsive and easily editable for your preferences.</p>
                 <div className="flex p-5" >

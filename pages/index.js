@@ -1,10 +1,11 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import About from '../components/About';
 import Contact from '../components/Contact';
 import Details from '../components/Details';
+import Footer from '../components/Footer';
 import Landing from '../components/Landing';
-import Navbar from '../components/Navbar';
-import Product from '../components/Product';
+import Layout from '../components/Layout';
 
 export default function Home() {
   return (
@@ -15,11 +16,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Navbar />
-      <Landing />
-      <Product />
+      <Layout />
+      <About />
       <Details />
       <Contact />
+      <Footer />
     </div>
   );
 }
